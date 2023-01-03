@@ -16,36 +16,58 @@
     <header class="cont-heder">
         <div class=" logo-menu container">
         <a class="logo link" href="./index.html">Web<span class="logo-web">Studio</span></a>
-        <nav class="menu">
-            
-            <ul class=" menu list">
+        <div class="nav-menu js-open-menu" id="nav-menu-hed">
+            <button type="button" class="menu-button js-open-menu" aria-label="Перемикач мобільного меню"
+                aria-controls="nav-menu-hed" aria-expanded="false">
+                <svg class="nav-menu-button" aria-hidden="true" width="32" height="32">
+                    <use class="nav-vector" href="./images/symbol-defs.svg#icon-Vector"></use>
+                    <use class="nav-dagget" href="./images/symbol-defs.svg#icon-dagget"></use>
+                </svg>
+            </button>
+        <nav >
+            <ul class=" menu list" >
                 <li class="menu-line">
                     <div class="menu-lineblue">
-                        <a class="menu-linl link" href="./index.html">Studio</a>
+                        <a class="menu-line link" href="./index.html">Studio</a>
                     </div></li> 
                 <li><a class="menu-line link" href="./portfolio.html">Portfolio</a></li> 
                 <li><a class="menu-line link" href="">Contacts</a></li>
             </ul>
-            <button type="button" class="menu-toggle js-open-menu" 
-            aria-label="Перемикач мобільного меню" 
-            aria-controls="nav-menu-hed" 
-            aria-expanded="false">
-                <svg width="32" height="32" >
-                    <use class="nav-vector" href="./images/symbol-defs.svg#icon-Vector"></use>
-                    <use class="nav-dagget" href="./images/symbol-defs.svg#icon-dagget"></use>
-                    
-                    <!-- <use class="nav-vector" href="./images/menu1.svg"></use> -->
-                </svg>
-                
-
-            </button>
         </nav>
-        <ul class="contakt  list" >
-            <li><a class="contakt-link link" href="meilto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="contakt-link link" href="tel:+380961111111">+380961111111</a></li>
-        </ul>
-        </div>
-        <div class="nav-menu is-open" data-menu id="nav-menu-hed">
+            <ul class="contakt  list" >
+                <li><a class="contakt-link link" href="meilto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="contakt-link link" href="tel:+380961111111">+380961111111</a></li>
+            </ul>
+            <ul class="nav-menu-icon list">
+                <li class="menu-icon-link">
+                    <a class="section-team-icon" href="">
+                        <svg class="icon-inst">
+                            <use href="./images/symbol-defs.svg#icon-instagram-2"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="menu-icon-link">
+                    <a class="section-team-icon" href="">
+                        <svg class="icon-inst">
+                            <use href="./images/symbol-defs.svg#icon-twiiter"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="menu-icon-link">
+                    <a class="section-team-icon" href="">
+                        <svg class="icon-inst">
+                            <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="menu-icon-link">
+                    <a class="section-team-icon" href="">
+                        <svg class="icon-inst">
+                            <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
         </div>
 
     </header>
