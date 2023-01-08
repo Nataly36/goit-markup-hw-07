@@ -1,0 +1,41 @@
+@media screen and (min-width: 768px) {
+
+    .menu-button,
+    .nav-menu-icon {
+        display: none;
+    }
+
+    .cont-heder {
+        width: 768px;
+        margin: 0 auto;
+    }
+
+    .menu-linl {
+        color: var(--color-second);
+        font-weight: 500;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .contakt-link {
+        font-size: 12px;
+        line-height: 1.33;
+        letter-spacing: 0.04em;
+        color: var(--page-colortext);
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .menu {
+        display: flex;
+        gap: 24px;
+        margin-left: 77px;
+    }
+
+    .contakt {
+        position: absolute;
+        top: 24px;
+        right: 16px;
+        display: flex;
+        flex-direction: column;
+    }
+
+}

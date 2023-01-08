@@ -1,0 +1,25 @@
+@media screen and (min-width: 768px) {
+    .title-section-team {
+        width: 768px;
+    }
+
+    .section-team {
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 72px;
+        column-gap: 24px;
+
+
+    }
+
+    .section-tea-map {
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .section-team-supimg {
+        width: 264px;
+    }
+}

@@ -1,0 +1,19 @@
+.proposition-title {
+    margin-bottom: 8px;
+    color: var(--color-second);
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.1;
+        text-transform: capitalize;
+        text-align: center;
+}
+    .proposition-grid {
+        display: block;
+    } 
+    .proposition-text {
+        font-weight: 500;
+        margin-bottom: 72px;
+    }
+        .proposition-text:nth-child(4){
+            margin-bottom: 0;
+        }

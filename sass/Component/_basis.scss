@@ -1,0 +1,75 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--page-colortext);
+    background-color: var(--page-background-color);
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--page-colortext);
+}
+
+.visuaiiy-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+.section {
+    padding-left: 16px;
+}
+
+.container {
+    padding: 0 16px;
+    
+}
+
+.icon,
+.container-section-img {
+    display: none;
+}
+.section-team-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.section-team-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    
+    border-radius: 50%;
+    background-color: var(--color-link)
+}
+
+.icon-inst {
+    width: 16px;
+    height: 16px;
+}

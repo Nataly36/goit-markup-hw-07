@@ -1,0 +1,27 @@
+@media screen and (min-width:1200px) {
+    .section {
+        
+        padding-left: 15px;
+    }
+
+    .container {
+        width: 1158px;
+       
+    }
+
+    .cont-heder {
+        width: 100%;
+    }
+
+    .contakt-link {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
+
+    .contakt {
+        flex-direction: row;
+        gap: 24px;
+        margin-left: auto;
+    }
+}

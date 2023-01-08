@@ -1,0 +1,53 @@
+.cont-heder {
+    width: 100%;
+    box-shadow: 0px 1px rgba(46, 47, 66, 0.08), 0px 1px rgba(46, 47, 66, 0.16), 0px 2px rgba(46, 47, 66, 0.08);
+    border-radius: 6px;
+}
+.logo {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    color: var(--color-link);
+}
+.logo-web {
+    color: var(--color-second);
+}
+
+.logo-menu {
+    display: flex;
+    flex-direction: row;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+// .cont-heder {
+    
+//     margin: 0 auto;
+// }
+
+.logo {
+    line-height: 1.17;
+}
+
+.menu-linl:hover,
+.menu-linl:focus {
+    color: var(--page-colortext);
+}
+
+.menu-linl:active {
+    color: var(--color-link);
+}
+
+.contakt-link:hover,
+.contakt-link:focus {
+    color: var(--color-link);
+}
+.container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.nav-menu-icon{
+    display: flex;
+    column-gap: 56px;
+}
