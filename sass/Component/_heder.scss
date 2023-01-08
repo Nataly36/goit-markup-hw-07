@@ -21,26 +21,12 @@
     padding-top: 24px;
     padding-bottom: 24px;
 }
-// .cont-heder {
-    
-//     margin: 0 auto;
-// }
 
 .logo {
     line-height: 1.17;
 }
-
-.menu-linl:hover,
-.menu-linl:focus {
-    color: var(--page-colortext);
-}
-
-.menu-linl:active {
-    color: var(--color-link);
-}
-
-.contakt-link:hover,
-.contakt-link:focus {
+.link:hover,
+.link:focus {
     color: var(--color-link);
 }
 .container{
