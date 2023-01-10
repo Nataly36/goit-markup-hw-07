@@ -2,7 +2,7 @@
 
     .footer-form-fields input {
        margin: 0;
-       width: 264px;
+       max-width: 264px;
         
     }
         .footer-form-tt {
@@ -11,14 +11,10 @@
             
         }
 
-        .container{
-            padding: 96px 0;
-        }
-    
-    .footer-container{
-        margin: 0;
-        padding: 0;
-    }
+    //     .footer-container{
+    //     margin: 0;
+    //     padding: 0;
+    // }
     
     
    .footer-form-fields{

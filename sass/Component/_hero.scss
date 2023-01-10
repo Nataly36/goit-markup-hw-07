@@ -1,21 +1,19 @@
 .hero {
+    max-width: 480px;
+    width: 100%;
     background: var(--color-second);
     text-align: center;
-    margin: 0 auto;
     background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
-    padding: 16px 0;
 }
-
 .hero-title {
     margin: 0 auto;
     text-align: left;
     font-weight: 700;
     color: var(--page-background-color);
-    width: 318px;
-    height: 80px;
+    max-width: 318px;
+    width: 100%;
     font-size: 36px;
     line-height: 1.11;
     margin-bottom: 72px;

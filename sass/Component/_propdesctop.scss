@@ -1,5 +1,4 @@
 @media screen and (min-width: 1200px) {
-
     .proposition-grid {
         padding-bottom: 0;
     
@@ -7,8 +6,9 @@
 
     .proposition-grid {
         display: flex;
-        column-gap: 24px;
-        justify-content: space-between;
+        gap: 24px;
+        flex-wrap: wrap;
+        flex-basis: ((100% - 72) / 4);
     }
 
     .proposition-grid-bloc,

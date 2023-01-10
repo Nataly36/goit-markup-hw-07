@@ -33,18 +33,64 @@ body {
 h1,
 h2,
 h3,
+h4,
+h5,
+h6,
+ul,
 p {
     margin: 0;
+    padding: 0;
 }
 
-.section {
-    padding-left: 16px;
-}
+
 
 .container {
+    margin: 0 auto;
     padding: 0 16px;
-    
+    max-width: 480px;
+    width: 100%;
 }
+@media screen and (min-width: 768px) {}
+ .container {
+    max-width: 768px;
+    width: 100%;
+ }
+@media screen and (min-width: 1200px) {
+    .container{
+        max-width: 1158px;
+    width: 100%;
+}
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+    .footer-form-fields input {
+       margin: 0;
+       width: 264px;
+        
+    }
+        .footer-form-tt {
+            margin: 0;
+           
+            
+        }
+
+        .footer-container{
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+   .footer-form-fields{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+   }
+
+}
+
 
 .icon,
 .container-section-img {
