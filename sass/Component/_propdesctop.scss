@@ -1,19 +1,13 @@
 @media screen and (min-width: 1200px) {
-    .proposition-grid {
-        padding-bottom: 0;
-    
-    }
-
-    .proposition-grid {
+        .proposition-grid {
         display: flex;
         gap: 24px;
-        flex-wrap: wrap;
+        flex-wrap:nowrap;
         flex-basis: ((100% - 72) / 4);
     }
 
     .proposition-grid-bloc,
     .proposition-grid-peac {
-        display: block;
         width: 264px;
         margin-bottom: 8px;
     }

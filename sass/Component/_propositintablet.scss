@@ -3,7 +3,7 @@
         display: flex;
         gap: 24px;
         flex-wrap: wrap;
-        flex-basis:((100% - 24) / 2);
+        // flex-basis:((100% - 24) / 2);
     }
 
         .proposition-title {
@@ -11,13 +11,10 @@
     }
         .proposition-grid-bloc,
         .proposition-grid-peac {
-            display: block;
-            width: 356px;
-    // .proposition-text:nth-child(3){
-    //     margin-bottom: 0px;
-    // }
-    //     .proposition-text:nth-child(4){
-    //         margin-bottom: 0px;
-    //     }
-}
+          
+            width: 356px;}
+    .proposition-text{
+        margin-bottom: 0px;
+    }
+        
 }

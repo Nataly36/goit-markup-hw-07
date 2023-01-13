@@ -13,61 +13,93 @@
 </head>
 <body>
 
-    <header class="cont-heder container">
-        <div class="logo-menu ">
+    <header class="cont-heder ">
+        <div class="container logo-menu ">
             <a class="logo link" href="./index.html">Web<span class="logo-web">Studio</span></a>
-            <div class="header-burger">
-                <span></span>
-            </div>
-            <div class="header-menu">
+            <button type="button" 
+                class="menu-toggle "
+                aria-expanded="false"
+                aria-controls="mobile-menu">
+                
+                <svg  width="32" height="22">
+                    <use class="btm-menu-open open-menu" href="./images/symbol-defs.svg#icon-Vector"></use>
+                    <use class="btm-menu-close close-menu" href="./images/symbol-defs.svg#icon-dagget"></use>
+
+                </svg>
+
+            </button>
             <nav >
-                <ul class=" menu list" >
+                <ul class=" menu " >
                     <li class="menu-line">
                         <div class="menu-lineblue">
-                            <a class="menu-line link" href="./index.html">Studio</a>
+                            <a class="menu-line " href="./index.html">Studio</a>
                         </div>
                     </li> 
-                    <li><a class="menu-line link" href="./portfolio.html">Portfolio</a></li> 
-                    <li><a class="menu-line link" href="">Contacts</a></li>
+                    <li><a class="menu-line " href="./portfolio.html">Portfolio</a></li> 
+                    <li><a class="menu-line " href="">Contacts</a></li>
                 </ul>
             </nav>
-            <ul class="contakt  list" >
-                <li><a class="contakt-link link" href="meilto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="contakt-link link" href="tel:+380961111111">+380961111111</a></li>
+               
+            <ul class="contakt " >
+                <li><a class="contakt-link " href="meilto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="contakt-link " href="tel:+380961111111">+380961111111</a></li>
             </ul>
-            <ul class="nav-menu-icon list">
-                <li class="menu-icon-link">
-                    <a class="section-team-icon" href="">
-                        <svg class="icon-inst">
-                            <use href="./images/symbol-defs.svg#icon-instagram-2"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="menu-icon-link">
-                    <a class="section-team-icon" href="">
-                        <svg class="icon-inst">
-                            <use href="./images/symbol-defs.svg#icon-twiiter"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="menu-icon-link">
-                    <a class="section-team-icon" href="">
-                        <svg class="icon-inst">
-                            <use href="./images/symbol-defs.svg#icon-facebook"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="menu-icon-link">
-                    <a class="section-team-icon" href="">
-                        <svg class="icon-inst">
-                            <use href="./images/symbol-defs.svg#icon-linkedin"></use>
-                        </svg>
-                    </a>
-                </li>
-            </ul>
-        </div>
+                
+            
         </div>
     </header>
+            
+    <!-- mobile-menu -->
+    <div class="mobile-menu is-open">
+        <nav>
+            <ul class="mob-menu ">
+                <li class="menu-line">
+                    <a class="menu-line " href="./index.html">Studio</a>
+                </li>
+                <li><a class="menu-line " href="./portfolio.html">Portfolio</a></li>
+                <li><a class="menu-line " href="">Contacts</a></li>
+            </ul>
+        </nav>
+                    
+        <ul class="mob-contakt ">
+            <li><a class="contakt-link " href="meilto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="contakt-link " href="tel:+380961111111">+380961111111</a></li>
+        </ul>
+                    
+        
+        <ul class="nav-menu-icon ">
+            <li class="menu-icon-link">
+                <a class="section-team-icon" href="">
+                    <svg class="icon-inst">
+                        <use href="./images/symbol-defs.svg#icon-instagram-2"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="menu-icon-link">
+                <a class="section-team-icon" href="">
+                    <svg class="icon-inst">
+                        <use href="./images/symbol-defs.svg#icon-twiiter"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="menu-icon-link">
+                <a class="section-team-icon" href="">
+                    <svg class="icon-inst">
+                        <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="menu-icon-link">
+                <a class="section-team-icon" href="">
+                    <svg class="icon-inst">
+                        <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </div>
+        
+
     <main>  
     <section class="hero section">
         <div class="container">
@@ -78,7 +110,7 @@
     <section class="section  section-prop">
         <div class="container">
         <h2 class="visuaiiy-hidden">Proposition</h2>
-        <ul class=" proposition-grid  list">
+        <ul class=" proposition-grid  ">
         
             <li class=" proposition-grid-peac">
                 <div class="icon" >
@@ -150,7 +182,7 @@
     <section class="section">
         <div class="container container-section-img">
         <h2 class="title-section-img">What are we doing</h2>
-    <ul class="section-img list">
+    <ul class="section-img ">
         <li><img src="./images/Computer.jpg" alt="Computer" width="360"></li>
         <li><img src="./images/smartphone.jpg " alt="Smartphone" width="360"></li>
         <li><img src="./images/tablet.jpg" alt="Work with tablet" width="360"></li>
@@ -160,14 +192,14 @@
     <section class="title-section-team section">
         <div class="container">
         <h2 class="title-section-im">Our Team</h2>
-        <ul class="section-team list" >
+        <ul class="section-team " >
             <li class="section-tea-map">
                 <img class="section-team-img" src="./images/Mark_Guerrero.jpg" alt="Product Designer" width="270">
                 <div class="section-team-supimg">
                     <h3 class="supimg">Mark Guerrero</h3>
                     <p class="section-team-prof">Product Designer</p>
                     
-                    <ul class="section-team-list list">
+                    <ul class="section-team-list ">
                         <li class="icon-link">
                             <a class="section-team-icon"  href="">
                                 <svg class="icon-inst">
@@ -208,7 +240,7 @@
                     <h3 class="supimg">Tom Ford</h3>
                     <p class="section-team-prof">Frontend Developer</p>
                     
-                    <ul class="section-team-list list">
+                    <ul class="section-team-list ">
                         <li class="icon-link">
                             <a class="section-team-icon"  href="">
                                 <svg class="icon-inst">
@@ -248,7 +280,7 @@
                     <h3 class="supimg">Camila Garcia</h3>
                     <p class="section-team-prof">Marketing</p>
                     
-                    <ul class="section-team-list list">
+                    <ul class="section-team-list ">
                         <li class="icon-link">
                             <a class="section-team-icon"  href="">
                                 <svg class="icon-inst">
@@ -288,7 +320,7 @@
                     <h3 class="supimg">Daniel Wilson</h3>
                     <p class="section-team-prof">UI Designer</p>
                     
-                        <ul class="section-team-list list">
+                        <ul class="section-team-list ">
                             <li class="icon-link">
                                 <a class="section-team-icon"  href="">
                                     <svg class="icon-inst">
@@ -328,8 +360,8 @@
     <section class="section">
         <div class="container container-customers">
         <h2 class="customers-title">Customers</h2>
-        <ul class="customers-list list">
-            <li class="customers-laying customers-flex">
+        <ul class="customers-list ">
+            <li class="customers-laying ">
                 <a class="customers-link" href="">
                     <svg class="customers-laying-icon">
                         <use href="./images/symbol-defs.svg#icon-yaco" ></use>
@@ -337,7 +369,7 @@
                 </a>
 
             </li>
-            <li class="customers-laying customers-flex">
+            <li class="customers-laying ">
                 <a class="customers-link" href="">
                     <svg class="customers-laying-icon">
                         <use href="./images/symbol-defs.svg#icon-compani"></use>
@@ -345,7 +377,7 @@
                 </a>
 
             </li >
-            <li class="customers-laying customers-flex">
+            <li class="customers-laying ">
                 <a class="customers-link" href="">
                     <svg class="customers-laying-icon">
                         <use href="./images/symbol-defs.svg#icon-comlist"></use>
@@ -353,7 +385,7 @@
                 </a>
 
             </li >
-            <li class="customers-laying customers-flex">
+            <li class="customers-laying ">
                 <a class="customers-link" href="">
                     <svg class="customers-laying-icon">
                         <use href="./images/symbol-defs.svg#icon-brawn"></use>
@@ -361,7 +393,7 @@
                 </a>
 
             </li >
-            <li class="customers-laying customers-flex">
+            <li class="customers-laying ">
                 <a class="customers-link" href="">
                     <svg class="customers-laying-icon">
                         <use href="./images/symbol-defs.svg#icon-foster"></use>
@@ -369,7 +401,7 @@
                 </a>
 
             </li>
-            <li class="customers-laying customers-flex">
+            <li class="customers-laying ">
                 <a class="customers-link" href="">
                     <svg class="customers-laying-icon">
                         <use href="./images/symbol-defs.svg#icon-tagline"></use>
@@ -438,16 +470,16 @@
             </div>
     </div>
     
-    <footer class="stile-footer " >
+    <footer class="stile-footer section" >
         <div class="footer-container container">
             <div class="footer-bl">
             <div class="foter-title-blok">
-                <a class="logo-footer link" href="./index.html">Web<span class="logo-web1">Studio</span></a>
+                <a class="logo-footer " href="./index.html">Web<span class="logo-web1">Studio</span></a>
                 <p class="foot-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
             </div>
             <div class="footer-icon-bloc">
                 <h3 class="footer-icon-title" >Social media</h3>
-                <ul class="footer-icon-list list">
+                <ul class="footer-icon-list ">
                     <li class="icon-foter">
                         <a class=" footer-icon-link" href="">
                             <svg class="footer-icon" >

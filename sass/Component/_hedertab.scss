@@ -1,14 +1,8 @@
 @media screen and (min-width: 768px) {
 
-    .menu-button,
-    .nav-menu-icon {
+    .mobile-menu,
+    .menu-toggle {
         display: none;
-    }
-
-    .cont-heder {
-        max-width: 768px;
-        width: 100%;
-        
     }
 
     .menu-line {
@@ -32,11 +26,10 @@
     }
 
     .contakt {
-        position: absolute;
-        top: 24px;
-        right: 16px;
         display: flex;
         flex-direction: column;
+        margin-left: auto;
+       
     }
         .menu-line {
             position: relative;
@@ -53,5 +46,6 @@
             border-radius: 2px;
            
         }
+        
 
 }
