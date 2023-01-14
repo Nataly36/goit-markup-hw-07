@@ -2,6 +2,8 @@
 @media screen and (min-width: 1200px) {
     .container-section-img {
         display: block;
+        padding-top: 0;
+        margin-top: 0;
 
     }
 
@@ -22,6 +24,6 @@
         display: flex;
         justify-content: space-between;
         gap: 24px;
-       
+        margin-top: 72px;
     }
 }

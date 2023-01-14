@@ -1,22 +1,25 @@
 @media screen and (min-width: 768px) {
+.footer-form {
+      max-width: 453px;
+      width: 100%;
+      margin-right: auto;
 
-    .footer-form-fields input {
-       margin: 0;
-       max-width: 264px;
-        
-    }
-       
-
-    //     .footer-container{
-    //     margin: 0;
-    //     padding: 0;
-    // }
-    
+   }
+   .footer-form-fields input {
+      margin: 0;
+   }
+   .footer-form-tt{
+      margin-right: auto;
+      margin-left: 59px;
+   }
     
    .footer-form-fields{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: flex-start;
     gap: 24px;
+   
    }
+   
 
 }

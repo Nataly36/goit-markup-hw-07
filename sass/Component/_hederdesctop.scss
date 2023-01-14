@@ -2,6 +2,11 @@
     .section {
         padding-left: 15px;
     }
+        .logo-menu {
+            padding-top: 24px;
+            padding-bottom: 24px;
+        }
+            
 
     .contakt-link {
         font-size: 16px;
@@ -12,7 +17,8 @@
     .contakt {
         flex-direction: row;
         gap: 24px;
-        
+        margin-right: 0px;
+            padding-top: 0px;
     }
     .logo-menu{
         padding-bottom: 24px;
