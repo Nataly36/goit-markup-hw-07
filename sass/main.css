@@ -199,7 +199,7 @@ p {
     height: 100%;
     overflow: auto;
     background-color: rgb(252, 252, 252);
-    padding: 80px 0 40px 40px;
+    padding: 80px 51px 40px 40px;
     transition: all 0.3s ease 0s;
   }
   .header-menu.active {
@@ -242,6 +242,12 @@ p {
     display: flex;
     -moz-column-gap: 56px;
          column-gap: 56px;
+  }
+}
+@media screen and (min-width: 481px) {
+  .header-menu,
+.contakt {
+    display: none;
   }
 }
 @media screen and (min-width: 768px) {
