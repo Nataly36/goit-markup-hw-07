@@ -242,7 +242,7 @@ p {
   }
   .nav-menu-icon {
     display: flex;
-    gap: 20px 56 px;
+    gap: 20px 56px;
     flex-wrap: wrap;
   }
 }
