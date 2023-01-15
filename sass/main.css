@@ -160,7 +160,6 @@ p {
     position: absolute;
     height: 2px;
     width: 100%;
-    right: 10;
     transition: all 0.3s ease 0s;
   }
   .header-burger::before {
@@ -195,11 +194,15 @@ p {
     position: fixed;
     top: -100%;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
     overflow: auto;
     background-color: rgb(252, 252, 252);
+    flex-direction: column;
     padding: 80px 51px 40px 40px;
+    justify-content: space-between;
+    gap: 20px;
     transition: all 0.3s ease 0s;
   }
   .header-menu.active {
@@ -207,7 +210,6 @@ p {
   }
   .mob-menu {
     display: block;
-    margin-bottom: 244px;
   }
   .menu-line {
     font-weight: 700;
@@ -240,8 +242,8 @@ p {
   }
   .nav-menu-icon {
     display: flex;
-    -moz-column-gap: 56px;
-         column-gap: 56px;
+    gap: 20px 56 px;
+    flex-wrap: wrap;
   }
 }
 @media screen and (min-width: 481px) {
